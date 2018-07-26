@@ -5,6 +5,13 @@ Author: Joshua Vining
 Author URI: https://github.com/jvining
 Description: Downey Tree and Property Maintenance Business Site  
 Version: 1.0
+
+_logo1   #072841
+_logo1   #1D6436
+_logo1   #3FB34B
+_accent1 #a2c046
+_accent2 #3a3a3a
+_accent3 #7d7d7d
 */
 
 body{background:#fbfbfb; padding-top:5em;}
@@ -35,9 +42,10 @@ body h1, body h2, body h3, body h4, body h5 {color:#666; font-weight:700; font-f
 .fa-stack.fa-lg,.fa-stack.fa-1x,.fa-stack.fa-2x,.fa-stack.fa-3x,.fa-stack.fa-4x,.fa-stack.fa-5x,.fa-stack.fa-6x,.fa-stack.fa-7x,.fa-stack.fa-8x,.fa-stack.fa-9x,.fa-stack.fa-10x {line-height:2em!important;}
 .text-light {font-weight:300!important;}
 .text-normal{font-weight:400!important;}
-.text-bold {font-weight:600!important;}
+.text-bold {font-weight:700!important;}
 .small{font-size:75%!important;}
 .text-grey{color:#5f5f5f!important;}
+.text-green{color:#a2c046!important;}
 .text-red{color:#d2002a!important;}
 .text-blue{color:#012B45!important;}
 .text-white{color:#fff!important;}
@@ -54,9 +62,9 @@ body nav.navbar .navbar-collapse {box-shadow: none!important; border-color:none!
 
 /* Primary Navigation */
 body nav.navbar-inverse .navbar-toggle {border-color: #fff;}
-body nav.navbar {background:#a2c046; min-height:4em; padding:1.25em; box-shadow:0 10px 25px 2px rgba(0, 0, 0, 0.3);  top:4em;}
-body nav.navbar .navbar-brand {margin-top:-4.25em;}
-body nav.navbar .navbar-brand img {border:5px #7d7d7d solid;}
+body nav.navbar {background:#a2c046; border-bottom:#3a3a3a 5px solid; min-height:4em; padding:1.25em; box-shadow:0 10px 25px 2px rgba(0, 0, 0, 0.3);  top:4em;}
+body nav.navbar .navbar-brand {margin-top:-4.05em;}
+body nav.navbar .navbar-brand img {border:5px #3a3a3a solid;}
 body nav.navbar .navbar-nav > li > a {font-size:1.25em; color:#fff; font-weight:700; font-family:"Roboto", "Helvetica Neue", "Helvetica", "Arial", "sans-serif"; }
 body nav.navbar .navbar-nav > li > a:hover {color:#7d7d7d; cursor:pointer;}
 
