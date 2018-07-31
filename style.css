@@ -1,6 +1,6 @@
 /*
 Theme Name: Downey Tree and Property Maintenance
-Theme URI: 
+Theme URI: https://jvining.github.io/Downey-Tree-and-Property-Maintenance/
 Author: Joshua Vining
 Author URI: https://github.com/jvining
 Description: Downey Tree and Property Maintenance Business Site  
@@ -73,10 +73,10 @@ body h1, body h2, body h3, body h4, body h5 {color:#464646; font-family:'Roboto 
 
 /* Navigation */
 body .container-button {background:#3a3a3a; border:none;  height:4em; position:fixed; top:0; z-index:1030; width:100%;}
-body .container-button li {color:#7d7d7d; font-size:1.2em; font-family:'Roboto Slab', 'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif'!important;}
-body .container-button li a {color:#7d7d7d; }
-body .container-button li a:hover {text-decoration: none;}
-body .container-button li:after {color:#afafaf; margin:.5em; content:"/";  font-family:'Roboto Slab', 'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif'!important;}
+body .container-button li {color:#afafaf; font-size:1.2em; font-family:'Roboto Slab', 'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif'!important;}
+body .container-button li a {color:#afafaf; }
+body .container-button li a:hover {text-decoration:none;}
+body .container-button li:after {color:#5f5f5f; margin:.5em; content:"/";  font-family:'Roboto Slab', 'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif'!important;}
 body .container-button li:last-child:after {content:none;}
 body .container-button li i {font-size:1.3em; margin-right:.25em;}
 body nav.navbar .navbar-collapse {box-shadow: none!important; border-color:none!important; border:none!important;}
@@ -86,15 +86,23 @@ body nav.navbar .navbar-collapse {box-shadow: none!important; border-color:none!
 body nav.navbar-inverse .navbar-toggle {border-color: #fff;}
 body nav.navbar {background:#a2c046; border-bottom:#3a3a3a 5px solid; min-height:4em; padding:1.25em; box-shadow:0 10px 25px 2px rgba(0, 0, 0, 0.3);  top:4em;}
 body nav.navbar .navbar-brand {margin-top:-4.05em;}
-body nav.navbar .navbar-brand img {border:5px #3a3a3a solid;}
-body nav.navbar .navbar-nav > li > a {font-size:1.25em; color:#fff; font-weight:700; font-family:"Roboto Slab", "Helvetica Neue", "Helvetica", "Arial", "sans-serif"!important; }
-body nav.navbar .navbar-nav > li > a:hover {color:#7d7d7d; cursor:pointer;}
+body nav.navbar .navbar-brand img {border:5px #3a3a3a solid; height:180px; width:220px; box-shadow:5px 5px 50px #333;}
+@media(max-width:990px){body nav.navbar .navbar-brand img {height:140px; width:220px; margin-left:-40px;}}
+@media(max-width:768px){body nav.navbar .navbar-brand img {height:120px; width:180px; margin-left:-20px; margin-top:20px;}}
+
+body nav.navbar .navbar-nav > li > a {font-size:1.25em; color:#fff; font-weight:700; text-shadow: rgba( 0, 0, 0, .25 ) .045em .045em!important; font-family:"Roboto Slab", "Helvetica Neue", "Helvetica", "Arial", "sans-serif"!important; }
+body nav.navbar .navbar-nav > li > a:hover {color:#3a3a3a; cursor:pointer;}
+
+body nav.navbar .navbar-nav > li:before {content:"\2022"; font-size:2em; color:#fff; text-shadow: rgba( 0, 0, 0, .25 ) .045em .045em!important; position:absolute; top:.24em; left:-.25em;}
+body nav.navbar .navbar-nav > li:first-child:before{content:none;}
 
 /* Footer */
-footer {background:#3a3a3a; margin-top:50px; padding:25px 0;}
+footer {background:#3a3a3a; margin-top:50px; padding:10px 0;}
 footer .container {color:#7d7d7d;}
-footer .container a {color:#7d7d7d;}
+footer .container a {color:#fff;}
+footer .container a:hover {text-decoration:none;}
 footer .container a:hover{color:#fff; background-color:transparent;}
+footer .container .nav.navbar-nav{font-family:'Roboto Slab', 'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif'!important;}
 
 /* Section: Global */
 [id*="content-"] [class*="col-"].well{ border:2px #eee solid; background:#fff; padding:1.25em; border-radius:0;}
