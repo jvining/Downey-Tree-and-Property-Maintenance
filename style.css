@@ -121,12 +121,13 @@ footer .container .nav.navbar-nav > li:first-child:before{content:none;}
 #content-about [class*="col-"].well p{font-size:1em; color:#afafaf;}
 
 /* Section: Testimonial Carousel */
-#content-testimonials {background-color: #3a3a3a; background-image: url(img/asfalt-light.png);}
+#content-testimonials {background-color: #3a3a3a;background-image: url(img/asfalt-light.png);min-height: 70vh!important;height: 450px!important;}
 #content-testimonials #quote-carousel {padding:20px 10px 30px 10px;margin-top: 4em;}
 #content-testimonials #quote-carousel .carousel-control {background:none;color:#CACACA;font-size:2.3em;text-shadow:none;margin-top:30px;}
 #content-testimonials #quote-carousel .carousel-indicators {position:relative;right:50%;top:auto;bottom:0px;margin-top:20px;margin-right:-19px;}
 #content-testimonials #quote-carousel .carousel-indicators li {width:50px;height:50px;cursor:pointer;border:1px solid #ccc;box-shadow:0 0 5px rgba(0,0,0,0.1);border-radius:50%;opacity:0.4;overflow:hidden;transition:all .4s ease-in;vertical-align:middle;}
 #content-testimonials #quote-carousel .carousel-indicators .active {width:128px;height:128px;opacity:1;transition:all .2s;}
+@media(max-width:768px){#content-testimonials #quote-carousel .carousel-indicators .active {width:64px;height:64px;opacity:1;transition:all .2s;}}
 
 #content-testimonials .item p{color:white; font-weight:700; font-family:"Roboto Slab", "Helvetica Neue", "Helvetica", "Arial", "sans-serif"!important;}
 #content-testimonials .item blockquote{border-left:none;margin:0;}
