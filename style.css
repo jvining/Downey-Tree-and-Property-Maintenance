@@ -120,6 +120,9 @@ footer .container .nav.navbar-nav > li:first-child:before{content:none;}
 /* Section: About */
 #content-about [class*="col-"].well p{font-size:1em; color:#afafaf;}
 
+/* Section: Contact */
+#content-contact input, #content-contact textarea, #content-contact select {font-style:italic; color:#afafaf;}
+
 /* Section: Testimonial Carousel */
 #content-testimonials {background-color: #3a3a3a;background-image: url(img/asfalt-light.png);min-height: 70vh!important;height: 450px!important;}
 #content-testimonials #quote-carousel {padding:20px 10px 30px 10px;margin-top: 4em;}
@@ -144,4 +147,3 @@ footer .container .nav.navbar-nav > li:first-child:before{content:none;}
 
 /* Section: Gallery */
 #content-gallery{margin:4em 0; padding:3em; background-color: #464646; background-image: url("img/black-thread.png");}
-
